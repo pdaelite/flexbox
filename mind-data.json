@@ -1,0 +1,121 @@
+{
+  "nodeData": {
+    "id": "root",
+    "topic": "flex布局",
+    "children": [
+      {
+        "id": "concept",
+        "topic": "概念",
+        "expanded": false,
+        "children": [
+          {
+            "id": "concept-desc",
+            "topic": "flex是“弹性布局”，又叫伸缩布局，是一种一维的布局模型，能更高效地处理元素排列、对齐和空间分配。"
+          }
+        ]
+      },
+      {
+        "id": "structure",
+        "topic": "结构",
+        "expanded": false,
+        "children": [
+          {
+            "id": "parent",
+            "topic": "容器",
+            "expanded": false,
+            "children": [
+              { "id": "display", "topic": "display：定义 flex 容器" },
+              {
+                "id": "flex-direction",
+                "topic": "flex-direction：设置主轴方向",
+                "expanded": false,
+                "children": [
+                  { "id": "fd-row", "topic": "row：默认值，从左到右" },
+                  { "id": "fd-row-reverse", "topic": "row-reverse：从右到左" },
+                  { "id": "fd-column", "topic": "column：从上到下" },
+                  { "id": "fd-column-reverse", "topic": "column-reverse：从下到上" }
+                ]
+              },
+              {
+                "id": "justify-content",
+                "topic": "justify-content：设置主轴上子项的排列方式",
+                "expanded": false,
+                "children": [
+                  { "id": "jc-start", "topic": "flex-start：从头部开始（默认）" },
+                  { "id": "jc-end", "topic": "flex-end：从尾部开始" },
+                  { "id": "jc-center", "topic": "center：主轴上居中" },
+                  { "id": "jc-around", "topic": "space-around：平分剩余空间" },
+                  { "id": "jc-between", "topic": "space-between：两端贴边并平分剩余空间" }
+                ]
+              },
+              {
+                "id": "align-items",
+                "topic": "align-items：设置交叉轴上子项的排列方式（单行）",
+                "expanded": false,
+                "children": [
+                  { "id": "ai-start", "topic": "flex-start：从头部开始排列" },
+                  { "id": "ai-end", "topic": "flex-end：从尾部开始排列" },
+                  { "id": "ai-center", "topic": "center：居中显示" },
+                  { "id": "ai-stretch", "topic": "stretch：拉伸显示" }
+                ]
+              },
+              {
+                "id": "flex-wrap",
+                "topic": "flex-wrap：设置主轴上子项是否换行",
+                "expanded": false,
+                "children": [
+                  { "id": "fw-nowrap", "topic": "nowrap：不换行" },
+                  { "id": "fw-wrap", "topic": "wrap：换行" },
+                  { "id": "fw-wrap-reverse", "topic": "wrap-reverse：反向换行" }
+                ]
+              },
+              {
+                "id": "align-content",
+                "topic": "align-content：设置交叉轴上子项的排列方式（多行）",
+                "expanded": false,
+                "children": [
+                  { "id": "ac-start", "topic": "flex-start：从交叉轴头部开始（默认）" },
+                  { "id": "ac-end", "topic": "flex-end：从交叉轴尾部开始" },
+                  { "id": "ac-center", "topic": "center：在交叉轴上居中显示" },
+                  { "id": "ac-around", "topic": "space-around：在交叉轴平分剩余空间" },
+                  { "id": "ac-between", "topic": "space-between：在交叉轴两端分布并平分剩余空间" },
+                  { "id": "ac-stretch", "topic": "stretch：子项高度平分剩余父项高度" }
+                ]
+              },
+              { "id": "gap", "topic": "gap：设置子项间距" }
+            ]
+          },
+          {
+            "id": "child",
+            "topic": "项目",
+            "expanded": false,
+            "children": [
+              {
+                "id": "align-self",
+                "topic": "align-self：控制子项自己在交叉轴上的排列方式",
+                "expanded": false,
+                "children": [
+                  { "id": "as-start", "topic": "flex-start：从头部开始排列" },
+                  { "id": "as-end", "topic": "flex-end：从尾部开始排列" },
+                  { "id": "as-center", "topic": "center：居中显示" },
+                  { "id": "as-stretch", "topic": "stretch：拉伸显示" }
+                ]
+              },
+              { "id": "order", "topic": "order：定义子项排列顺序，数值越小越靠前（默认0）" },
+              {
+                "id": "flex-property",
+                "topic": "flex：定义子项如何分配剩余空间（用份数表示）",
+                "expanded": false,
+                "children": [
+                  { "id": "flex-grow", "topic": "flex-grow：如果存在剩余空间，项目的放大比例" },
+                  { "id": "flex-shrink", "topic": "flex-shrink：如果空间不足，项目的缩小比例" },
+                  { "id": "flex-basis", "topic": "flex-basis：项目在分配多余空间之前的初始大小" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
